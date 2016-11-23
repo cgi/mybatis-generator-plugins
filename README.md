@@ -1,24 +1,21 @@
+# This is fork for https://github.com/bigpuritz/mybatis-generator-plugins
+
 ### Documentation
 See http://blog.javaforge.net/post/30577502737/mybatis-generator-plugins for further details.
 
 --
 
-### Mybatis Generator Plugins v. 1.0.0 release available:
-#### https://github.com/bigpuritz/mybatis-generator-plugins/releases/tag/mybatis-generator-plugins-1.0.0
+###Reales Notes:
+No changes in functions - new version published for release to Maven Central
 
-Maven users please add following repository and dependency declarations to your POM-File:
+
+### Info
+Maven users please add following dependency declarations to your POM-File:
 
 ```xml
-<repositories>
- <repository>
-  <id>googlecode</id>
-  <url>http://docbook4j.googlecode.com/svn/m2-repo/releases/</url>
- </repository>
-</repositories>
-
 <dependency>
     <groupId>io.github.cgi</groupId>
     <artifactId>mybatis-generator-plugins</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
 </dependency>
 ```

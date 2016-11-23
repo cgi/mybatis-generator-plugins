@@ -5,20 +5,20 @@
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="mybatis-generator-plugins" scope="PROVIDED" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: net.javaforge.mybatis.generator:mybatis-generator-plugins:1.0.1-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.mybatis:mybatis:3.2.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.mybatis:mybatis-ehcache:1.0.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: net.sf.ehcache:ehcache-core:2.0.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.slf4j:slf4j-api:1.5.8" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.code.javaparser:javaparser:1.0.10" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mybatis.generator:mybatis-generator-core:1.3.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.mybatis.generator:mybatis-generator-core:1.3.5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: junit:junit:4.11" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
@@ -215,4 +215,3 @@
     </option>
   </component>
 </module>
-

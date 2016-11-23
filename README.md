@@ -17,8 +17,8 @@ Maven users please add following repository and dependency declarations to your 
 </repositories>
 
 <dependency>
-    <groupId>net.javaforge.mybatis.generator</groupId>
+    <groupId>io.github.cgi</groupId>
     <artifactId>mybatis-generator-plugins</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 </dependency>
 ```
